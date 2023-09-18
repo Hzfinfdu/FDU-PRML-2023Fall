@@ -21,6 +21,8 @@ We have carefully prepared some assignments for you, we believe these assignment
 
 **Late Policy**: Everyone of you have 2 free late days for this semester. You can only use the late days for your assignments but not for the final project report. Once you have exhausted your free late days, we will deduct a late penalty of 25% per additional late day.
 
+**Submission**: Refer to [here](https://github.com/Hzfinfdu/FDU-PRML-2023Fall/blob/main/Assignments/README.md) for submission details.
+
 ### Assignment 1: Machine Learning with Tabular Data (20%)
 
 - Learn more about optimization and generalization
