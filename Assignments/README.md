@@ -29,5 +29,11 @@ jupyter nbconvert --to pdf notebook.ipynb
 ```
 Replace notebook.ipynb with the name of your Jupyter Notebook file. This command will create a PDF file with the same name as your Jupyter Notebook file.
 
+## Assignment 1: Machine Learning with Tabular Data (20%)
 
+- Learn more about optimization and generalization
+  
+- Play with real-world tabular dataset
+
+- Impementing your own Sklearn-like ML library
 
