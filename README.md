@@ -27,3 +27,4 @@ We have carefully prepared some assignments for you, we believe these assignment
 
 - Learn more about optimization and generalization
 - Play with real-world tabular dataset
+- Impementing your own Sklearn-like ML library
