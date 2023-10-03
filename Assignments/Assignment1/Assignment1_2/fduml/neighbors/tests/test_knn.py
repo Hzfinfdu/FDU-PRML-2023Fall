@@ -16,7 +16,7 @@ def test_kneighbors_classifier(
     # Test k-neighbors classification
     rng = np.random.RandomState(random_state)
     X = 2 * rng.rand(num_train, n_features) - 1
-    y = ((X**2).sum(axis=1) < 0.5).astype(int)
+    y = ((X**2).sum(axis=1) < 1.).astype(int)
     epsilon = 1e-5 * (2 * rng.rand(1, n_features) - 1)
 
     knn = KNeighborsClassifier(n_neighbors=n_neighbors,num_loops=2)
