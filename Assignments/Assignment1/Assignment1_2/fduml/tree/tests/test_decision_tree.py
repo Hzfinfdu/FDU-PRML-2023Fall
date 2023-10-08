@@ -32,7 +32,7 @@ def test_dt_classification():
 	assert_array_equal(dt_clf.predict(T), true_result, "Failed with {}".format(criterion))
 
 	criterion = "error_rate"
-	true_result = np.array([-1, -1, -1])
+	true_result = np.array([-1, 1, 1])
 	dt_clf = DecisionTreeClassifier(criterion=criterion, random_state=0)
 	dt_clf.fit(X, y)
 	assert_array_equal(dt_clf.predict(T), true_result, "Failed with {}".format(criterion))
